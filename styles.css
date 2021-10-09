@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600&display=swap');
+
+body {
+    font-size: 22px;
+    color: black;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+}
+a {
+    font-weight: 300;
+    color: black;
+}
+h1, h2, h4 {
+    font-weight: 600;
+}
+header {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto 10%;
+}
+section {
+    display: flex;
+    height: 400px;
+    margin-top: 20px;
+}
+section#mission {
+    background-image: url(./images/skyscrapers.jpg);
+}
+.content {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+.facilities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.facility {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 20px auto;
+}
+.facility span {
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./images/team.jpg);
+    background-repeat: no-repeat;
+}
+.team-member {
+    flex-basis: 250px;
+    padding: 10px;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+    color: white;
+}
+.team-member p, .team-member h4 {
+    margin: auto;
+    text-align: center;
+}
+.copyright {
+    text-align: right;
+    font-weight: 300;
+}
